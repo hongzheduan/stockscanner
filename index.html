@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Company</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      color: #333;
+    }
+
+    header {
+      background: white;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    nav a {
+      margin-left: 15px;
+      text-decoration: none;
+      color: #333;
+    }
+
+    .hero {
+      background: #2563eb;
+      color: white;
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    .hero h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+
+    .hero button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      border: none;
+      background: white;
+      color: #2563eb;
+      font-weight: bold;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #222;
+      color: white;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h2>Your Company</h2>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h1>We Build Solutions That Matter</h1>
+    <p>A simple starter website for your company</p>
+    <button>Get Started</button>
+  </div>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>
+      We are a company focused on delivering value to our clients. Replace this text with your own story.
+    </p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="card">
+        <h3>Service One</h3>
+        <p>Describe your service here.</p>
+      </div>
+      <div class="card">
+        <h3>Service Two</h3>
+        <p>Describe your service here.</p>
+      </div>
+      <div class="card">
+        <h3>Service Three</h3>
+        <p>Describe your service here.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: contact@yourcompany.com</p>
+    <p>Phone: +1 (555) 123-4567</p>
+  </section>
+
+  <footer>
+    © 2026 Your Company. All rights reserved.
+  </footer>
+
+</body>
+</html>
